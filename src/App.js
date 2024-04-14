@@ -6,7 +6,8 @@ function App() {
   return (
     <div className='main-container'>
       <Contador />
-    </div>
+      <p>By Jiovane Ferreira</p>
+    </div>   
   );
 }
 

@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .main-container {
   background-color: #27282c;
@@ -10,6 +5,13 @@
   font-size: 2em;
   color: #FFF;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 3rem;
 }
