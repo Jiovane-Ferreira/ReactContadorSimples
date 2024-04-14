@@ -1,0 +1,43 @@
+.showValor {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+.btn-container {
+   display: flex;
+   margin-top: 2.5rem;
+
+}
+
+.btn {
+
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem 0 5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.subtrair:active {
+    background-color: #ff1867;
+    box-shadow: 0 0 40px 5px #ff1867;
+ 
+}
+
+.zerar:active {
+    background-color: #6eff3e;
+    box-shadow: 0 0 40px 5px #6eff3e;
+    
+}
+
+.adicionar:active {
+    background-color: #1e9bff;
+    box-shadow: 0 0 40px 5px #1e9bff;
+    
+}
