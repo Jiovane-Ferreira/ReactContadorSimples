@@ -24,7 +24,7 @@ function Contador() {
 
     // Parte que Renderiza o componente na interface
     return (
-        <div className="contador-container">
+        <div>
             <div className="showValor">
                 {numero}
             </div>
